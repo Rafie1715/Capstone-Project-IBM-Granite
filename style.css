@@ -1,0 +1,25 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+    color: #333;
+    padding-top: 20px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+canvas {
+    background: #1a1a2e; /* Latar belakang canvas lebih gelap */
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
